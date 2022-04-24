@@ -1,0 +1,29 @@
+.pullover {
+ background-color: indigo; 
+ height: 300px; 
+ width: 500px; 
+ position: relative;
+}
+
+#top {
+ color: red; 
+height: 100px;
+position: absolute; 
+background-color: palegoldenrod;
+top: 0;
+left: 0;
+width: 100px;
+border: solid orange 5px;
+border-radius: 50%;
+}
+
+.pullover::before {
+    content: "Hello";
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    background: red;
+}
+

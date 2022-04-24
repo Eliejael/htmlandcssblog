@@ -1,0 +1,53 @@
+body  {
+   font-family: cursive;
+   color:blue
+  }
+
+  h1 {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  div { 
+      margin:10px;
+      border: 1px dotted black;
+}
+
+  p {
+      font-family: 'Courier New', Courier, monospace;
+      font-variant: normal;
+  }
+ 
+  div h2:first-child  {
+      border:1px dashed blue            ;
+  }
+
+
+  a:active {
+     color: rgb(5, 2, 0) !important;
+  }
+
+  a:visited {
+     color: rgb(255, 102, 0) !important;
+  }
+
+.left-box-absolute {
+background: url(../images/consultant-marketing.jpg) 0 0 no-repeat 50%, url(../images/istockphoto-1176769388-170667a.jpg)
+}
+
+  p::before { 
+     /* color:yellow*/
+  }
+
+  p::after { 
+     /* color:yellow*/
+  }
+ 
+
+  p.unread::before {
+      content: "Unread";
+      background-color: green;
+      color: aliceblue;
+      display: table-row;
+      padding: 5px;
+  }
+   

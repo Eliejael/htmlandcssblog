@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://mboahost.biz/formresult.php">
+        <section>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" value="" name="name">
+            </div>
+            <div>
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age">
+            </div>
+            <div>
+                <label for="birth">Birth date</label>
+                <input type="date" id="birth" name="birth">
+            </div>
+            <div>
+                <label for="gender">Gender</label>
+                <select id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+        </section>
+        <section>
+            <h3>Attendees</h3>
+            <div>
+                <label for="checkbox1">Under 20</label>
+                <input type="checkbox" id="checkbox1" value="-20">
+            </div>
+            <div>
+                <label for="checkbox2">Under 40</label>
+                <input type="checkbox" id="checkbox2" value="-40">
+            </div>
+            <div>
+                <label for="checkbox3">Over 41</label>
+                <input type="checkbox" id="checkbox3" value="+41">
+            </div>
+        </section>
+        <section>
+            <h3>Entry fees</h3>
+            <div>
+                <label for="radio1">2000 FCFA</label>
+                <input type="radio" name="fees" id="radio1" value="2000">
+            </div>
+            <div>
+                <label for="radio2" >5000 FCFA</label>
+                <input type="radio" name="fees"  id="radio2" value="5000">
+            </div>
+            <div>
+                <label for="radio3">10000 FCFA</label>
+                <input type="radio" name="fees" value="10000"  id="radio3">
+            </div>
+        </section>
+        <section>
+            <h2 for="gender">Description</h2>
+            <br>
+            <textarea rows="8" cols="58" placeholder="Put some description here"></textarea>
+            <div>
+                <button>Submit the form</button>
+            </div>
+        </section>
+    </form>
+</body>
+
+</html>
